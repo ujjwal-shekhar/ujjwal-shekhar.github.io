@@ -35,11 +35,11 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -161,7 +161,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I’m a dual degree student at IIIT Hyderabad (B.Tech. in Computer Science + M.S. by Research in Computational Natural Sciences) with experience across C++, Golang, Python, and distributed systems. I’ve worked on high-impact production C++ systems, open-source compiler optimizations, and research in complex systems.
+      I'm a dual degree student at IIIT Hyderabad (B.Tech. in Computer Science + M.S. by Research in Computational Natural Sciences) with experience across C++, Golang, Python, and distributed systems. I’ve worked on high-impact production C++ systems, open-source compiler optimizations, and research in complex systems.
 
       My interests span low-latency programming, distributed architectures, and simulation of large-scale systems.
     skills:
@@ -182,23 +182,23 @@ params:
       - job: "Software Engineering Intern"
         company: "Jump Trading Group"
         companyUrl: "https://www.jumptrading.com"
-        date: "May 2025 – Aug 2025"
+        date: "May 2025 - Aug 2025"
         content: |
           Pushed multiple high-impact C++ projects into production (details under NDA).
 
       - job: "Open Source Developer"
         company: "Google Summer of Code (UCSC - OSPO)"
         companyUrl: "https://summerofcode.withgoogle.com"
-        date: "May 2024 – Sept 2024"
+        date: "May 2024 - Sept 2024"
         content: |
           - Mentored by Prof. Jose Renau, UC-Santa Cruz Micro Architecture Lab.
-          - Achieved up to 2× compile-time speedup for ~10M-line hardware code in specific cases ([Project Link](https://summerofcode.withgoogle.com/archive/2024/projects/ggfpoLfF)).
+          - Achieved up to 2x compile-time speedup for ~10M-line hardware code in specific cases ([Project Link](https://summerofcode.withgoogle.com/archive/2024/projects/ggfpoLfF)).
           - Built a templated AST in C++ for hardware compilers; benchmarked using Google Bench.
 
       - job: "Undergraduate Researcher"
-        company: "IIIT Hyderabad – CCNSB Lab"
+        company: "IIIT Hyderabad - CCNSB Lab"
         companyUrl: "https://www.iiit.ac.in"
-        date: "May 2022 – Present"
+        date: "May 2022 - Present"
         content: |
           - Worked on extensions of Rock-Paper-Scissors games on lattice systems.
           - Studied topological phase transitions and epidemic synchronization on networks.
@@ -206,22 +206,22 @@ params:
 
       - job: "Programming Club Administrator"
         company: "IIIT Hyderabad"
-        date: "May 2022 – Sept 2024"
+        date: "May 2022 - Sept 2024"
         content: |
           - Led Lockout 2023, 2024 with Python bot setup (60+ participants).
           - Oversaw server admin for hosting bots/websites.
           - Problem setter for CodeCraft 2023, 2024 (25,000+ worldwide registrations).
           - Delivered educational talks (100+ offline participants) on Graph Theory ([Slides](https://docs.google.com/presentation/d/1LQGKoIVHnKrJ-GxZYqNRzjrZ4BqL0XyHjciNNgjluFQ/edit)).
 
-      - job: "Teaching Assistant – Computer Programming"
+      - job: "Teaching Assistant - Computer Programming"
         company: "IIIT Hyderabad"
-        date: "Aug 2023 – Dec 2023"
+        date: "Aug 2023 - Dec 2023"
         content: |
           - Taught C programming tutorials/labs for 340+ first-year students and managed course logistics.
 
       - job: "Software Intern"
         company: "ikiMinds (co-mentored by ClearCals)"
-        date: "Jan 2023 – Apr 2023"
+        date: "Jan 2023 - Apr 2023"
         content: |
           - Built AI Discord bot for blog Q&A using NextcordPy, ChatGPT API, and LangChain to reduce sign-on attrition.
 
@@ -233,10 +233,10 @@ params:
         school:
           name: "IIIT Hyderabad"
           url: "https://www.iiit.ac.in"
-        date: "2021 – Present"
+        date: "2021 - Present"
         GPA: "9.39 / 10.00"
         content: |
-          Academic Awards: Dean’s List (6 semesters), Merit List (1 semester).
+          Academic Awards: Dean's List (6 semesters), Merit List (1 semester).
           Coursework: Distributed Systems (10), Advanced Computer Architecture (10), Principles of Programming Languages (10), Automata Theory (10), Operating Systems and Networks (9), Algorithm Analysis and Design (10), Responsible and Safe AI Systems (10), Statistical Methods in AI (10).
 
     # Achievements
