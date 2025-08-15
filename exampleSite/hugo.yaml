@@ -62,7 +62,8 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  # favicon: "/fav.png"
+  favicon: "/images/me.jpg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -115,7 +116,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Ujjwal Shekhar" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -134,18 +135,18 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Ujjwal."
-    subtitle: "Software Engineering Intern @ Jump Trading"
-    content: "I work with low-latency C++, networking, and distributed systems. I’m passionate about building scalable, high-performance software."
-    image: /images/hero.svg
+    title: "Ujjwal Shekhar."
+    subtitle: "Incoming Software Engineer @ Jump Trading"
+    content: "I work with low-latency C++, networking, and distributed systems. I'm passionate about building scalable, high-performance software."
+    # image: /images/me.jpg
     bottomImage:
       enable: true
     button:
       enable: true
       name: "Resume"
       url: "/Ujjwal_Shekhar_Resume.pdf"
-      download: true
-      newPage: false
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -158,7 +159,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
       I’m a dual degree student at IIIT Hyderabad (B.Tech. in Computer Science + M.S. by Research in Computational Natural Sciences) with experience across C++, Golang, Python, and distributed systems. I’ve worked on high-impact production C++ systems, open-source compiler optimizations, and research in complex systems.
 
@@ -176,7 +177,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     items:
       - job: "Software Engineering Intern"
         company: "Jump Trading Group"
@@ -240,7 +241,7 @@ params:
 
     # Achievements
     achievements:
-      enable: true
+      enable: false
       # title: "Custom Name"
       items:
         - title: Google kickstart runner
